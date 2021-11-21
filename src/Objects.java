@@ -7,6 +7,10 @@ class Methods{
         System.out.println("Running");
         System.out.println("My " + animal + " is " + value + " years old");
     }
+
+    void talk (String text){
+        System.out.println(text);
+    }
 }
 
 
@@ -48,6 +52,7 @@ public class Objects {
         name.value = 4;
 
         name.run();
+        name.talk("Ini Firli");
 
 
         Products baju = new Products();
